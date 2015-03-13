@@ -19,18 +19,16 @@ public class VeiculoController {
     @Autowired
     private EntityManager em;
 
-
     public List<Veiculo> getVeiculos() {
         return null;
     }
-    
+
     public void criarVeiculo(@RequestBody Veiculo veiculo) {
-    }        
-    
+    }
+
     public void alterarVeiculo(@RequestBody Veiculo veiculo) {
-    }        
-    
+    }
+
     public void excluirVeiculo(@PathVariable Long id) {
-    }        
-    
+    }
 }
